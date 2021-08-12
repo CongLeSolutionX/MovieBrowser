@@ -126,27 +126,79 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail View Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MK-lz-d8f">
-                                <rect key="frame" x="144" y="96" width="126" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IR6-0K-yV1">
+                                <rect key="frame" x="5" y="49" width="404" height="51"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <font key="NSFont" size="39" name="Futura-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDd-8a-XUZ">
+                                <rect key="frame" x="5" y="105" width="404" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2sN-xJ-ndd">
+                                <rect key="frame" x="5" y="130.5" width="404" height="415"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="415" id="bc7-wa-mKV"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BsZ-zo-y0c">
+                                <rect key="frame" x="5" y="550.5" width="404" height="345.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RKA-Vk-c9N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BsZ-zo-y0c" firstAttribute="leading" secondItem="RKA-Vk-c9N" secondAttribute="leading" constant="5" id="0oj-Ro-5Qv"/>
+                            <constraint firstItem="2sN-xJ-ndd" firstAttribute="leading" secondItem="dDd-8a-XUZ" secondAttribute="leading" id="A42-3w-Pz8"/>
+                            <constraint firstItem="RKA-Vk-c9N" firstAttribute="trailing" secondItem="2sN-xJ-ndd" secondAttribute="trailing" constant="5" id="I8Q-oK-B76"/>
+                            <constraint firstItem="RKA-Vk-c9N" firstAttribute="trailing" secondItem="dDd-8a-XUZ" secondAttribute="trailing" constant="5" id="Pgm-mo-mjQ"/>
+                            <constraint firstItem="2sN-xJ-ndd" firstAttribute="top" secondItem="dDd-8a-XUZ" secondAttribute="bottom" constant="5" id="Vis-DU-gJi"/>
+                            <constraint firstAttribute="bottom" secondItem="BsZ-zo-y0c" secondAttribute="bottom" id="aQH-Nw-c4c"/>
+                            <constraint firstItem="RKA-Vk-c9N" firstAttribute="trailing" secondItem="BsZ-zo-y0c" secondAttribute="trailing" constant="5" id="fGQ-N7-KW7"/>
+                            <constraint firstItem="BsZ-zo-y0c" firstAttribute="top" secondItem="2sN-xJ-ndd" secondAttribute="bottom" constant="5" id="hmB-By-H0q"/>
+                            <constraint firstItem="dDd-8a-XUZ" firstAttribute="top" secondItem="IR6-0K-yV1" secondAttribute="bottom" constant="5" id="jcO-pZ-2Wf"/>
+                            <constraint firstItem="RKA-Vk-c9N" firstAttribute="trailing" secondItem="IR6-0K-yV1" secondAttribute="trailing" constant="5" id="nRh-I4-rvv"/>
+                            <constraint firstItem="dDd-8a-XUZ" firstAttribute="leading" secondItem="RKA-Vk-c9N" secondAttribute="leading" constant="5" id="wxm-jj-BxL"/>
+                            <constraint firstItem="IR6-0K-yV1" firstAttribute="leading" secondItem="RKA-Vk-c9N" secondAttribute="leading" constant="5" id="xgG-IS-1ub"/>
+                            <constraint firstItem="IR6-0K-yV1" firstAttribute="top" secondItem="RKA-Vk-c9N" secondAttribute="top" constant="5" id="zfF-Lv-8iR"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="movieDescription" destination="BsZ-zo-y0c" id="iSG-bb-A7B"/>
+                        <outlet property="movieImageView" destination="2sN-xJ-ndd" id="cdH-L0-6GB"/>
+                        <outlet property="movieTitle" destination="IR6-0K-yV1" id="emR-kY-cC8"/>
+                        <outlet property="releaseDate" destination="dDd-8a-XUZ" id="A09-9Y-eZw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKU-oG-Ybx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="978" y="125"/>
+            <point key="canvasLocation" x="976.81159420289862" y="124.55357142857142"/>
         </scene>
     </scenes>
     <resources>
         <image name="star" width="24" height="24"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

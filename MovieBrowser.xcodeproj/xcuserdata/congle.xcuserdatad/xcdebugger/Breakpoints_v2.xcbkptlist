@@ -3,4 +3,146 @@
    uuid = "654D9F53-C7EE-4CFD-B9E9-D0F4D2302988"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "847AC770-00BB-47EA-8264-3D79ACB042C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MovieDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "847AC770-00BB-47EA-8264-3D79ACB042C8 - 5dc135895053fe16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBrowser.MovieDetailViewController.idMovie.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "MovieBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/congle/Desktop/THINGS/INTERVIEWS/Takehome-Coding/Lowes-iOS%20Coding%20Excercise/MovieBrowser/MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "847AC770-00BB-47EA-8264-3D79ACB042C8 - bfcfa5cea1684a02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBrowser.MovieDetailViewController.idMovie.setter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "MovieBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/congle/Desktop/THINGS/INTERVIEWS/Takehome-Coding/Lowes-iOS%20Coding%20Excercise/MovieBrowser/MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "847AC770-00BB-47EA-8264-3D79ACB042C8 - f53cd19f2c74a8c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBrowser.MovieDetailViewController.idMovie.modify : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "MovieBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/congle/Desktop/THINGS/INTERVIEWS/Takehome-Coding/Lowes-iOS%20Coding%20Excercise/MovieBrowser/MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "847AC770-00BB-47EA-8264-3D79ACB042C8 - 3c56231090706506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBrowser.MovieDetailViewController.idMovie.modify : Swift.Optional&lt;Swift.Int&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MovieBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/congle/Desktop/THINGS/INTERVIEWS/Takehome-Coding/Lowes-iOS%20Coding%20Excercise/MovieBrowser/MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "847AC770-00BB-47EA-8264-3D79ACB042C8 - eed2ccb14559f20e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBrowser.MovieDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MovieBrowser.MovieDetailViewController"
+                  moduleName = "MovieBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/congle/Desktop/THINGS/INTERVIEWS/Takehome-Coding/Lowes-iOS%20Coding%20Excercise/MovieBrowser/MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "290">
+               </Location>
+               <Location
+                  uuid = "847AC770-00BB-47EA-8264-3D79ACB042C8 - 124ca20cbb7eff33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBrowser.MovieDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MovieBrowser.MovieDetailViewController&gt;"
+                  moduleName = "MovieBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/congle/Desktop/THINGS/INTERVIEWS/Takehome-Coding/Lowes-iOS%20Coding%20Excercise/MovieBrowser/MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD94A90E-99ED-44F8-A4C9-60AB5827428F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieBrowser/Source/Detail/MovieDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D1B4820-B0F2-4A60-84A7-7557ACC5E38D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieBrowser/Source/Coordinator/MainCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "showMovieDetail(idMovie:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

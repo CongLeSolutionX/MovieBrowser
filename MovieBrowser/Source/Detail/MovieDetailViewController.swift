@@ -12,6 +12,11 @@ class MovieDetailViewController: UIViewController {
   weak var coordinator: Coordinator?
   var idMovie: Int? = nil
   
+  @IBOutlet weak var movieTitle: UILabel!
+  @IBOutlet weak var releaseDate: UILabel!
+  @IBOutlet weak var movieImageView: UIImageView!
+  @IBOutlet weak var movieDescription: UITextView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
   }
