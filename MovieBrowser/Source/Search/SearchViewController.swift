@@ -21,7 +21,7 @@ class SearchViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    navigationItem.title = "Top Movies"
+    navigationItem.title = "Search Movies"
     navigationItem.largeTitleDisplayMode = .always
     setupBinding()
   }
