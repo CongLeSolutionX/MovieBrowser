@@ -25,8 +25,11 @@ class MovieCell: UITableViewCell {
       self.releaseDate.text = releaseDate
     }
     
-    if let imageName = imageName {
-      movieImageView.image = UIImage(data: imageName)
+    guard let imageName = imageName else {
+      movieImageView.image = UIImage(named: "placeholder")
+      return
     }
+    
+    movieImageView.image = UIImage(data: imageName)
   }
 }
